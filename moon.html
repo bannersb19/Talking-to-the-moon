@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html style="overflow-y: scroll;" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talking to the Moon</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/m.js"></script>
+    <link rel="stylesheet" href="CSS/hover.css">
+    <style>
+        li a:hover {
+            font-weight: bolder;
+            background-color: white;
+            color: #2b1055;
+        }
+        
+        li {
+            float: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        document.getElementById("white").onmouseover = function() {
+            setNewImage()
+        };
+        document.getElementById("white").onmouseout = function() {
+            setOldImage()
+        };
+
+        function setNewImage() {
+            document.getElementById("white").src = "black.png";
+        }
+
+        function setOldImage() {
+            document.getElementById("white").src = "moon.png";
+        }
+    </script>
+    <nav>
+        <a href="#" class="logo">Logo</a>
+        <ul class="g">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="#" class="active">Work</a></li>
+            <li><a href="#" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="design">
+        <img src="stars.png" alt="" id="stars">
+        <div class="hover">
+            <img src="moon.png" alt="" class="white" id="white">
+            <!-- <img src="black.png" alt="" class="black" id="black"> -->
+        </div>
+        <img src="behind.png" alt="" id="behind">
+        <h2 id="text">Talking to the Moon</h2>
+        <a href="#sec" class="btn" id="btn">Explore</a>
+        <audio src="1.mp3" id="music" loop></audio>
+        <script>
+            window.onload = function() {
+                document.getElementById("music").play()
+            }
+        </script>
+        <img src="front.png" alt="" id="front">
+
+    </section>
+    <div class="sec" id="sec">
+        <h2>Parallax Scrolling Effects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae a nostrum quam ab eaque sunt, corrupti incidunt dolores necessitatibus, similique nihil. Mollitia reprehenderit sunt repellendus quasi praesentium eligendi iure. Magnam fugiat itaque,
+            magni adipisci quibusdam cupiditate amet accusamus dolorum ipsam similique nulla expedita consequuntur fugit neque corporis praesentium nesciunt molestiae assumenda aliquid? Provident quos tenetur ab corporis obcaecati, ipsa nemo quidem explicabo,
+            exercitationem fuga aperiam quam impedit illo adipisci qui. Nostrum id amet aliquam tempore ab magni inventore obcaecati, fuga alias dolorem cum excepturi autem hic fugit architecto assumenda quasi a? Eligendi, accusantium id! Ad quasi consectetur
+            sunt odit magnam.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae a nostrum quam ab eaque sunt, corrupti incidunt dolores necessitatibus, similique nihil. Mollitia reprehenderit sunt repellendus quasi praesentium eligendi
+            iure. Magnam fugiat itaque, magni adipisci quibusdam cupiditate amet accusamus dolorum ipsam similique nulla<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae a nostrum quam ab eaque sunt, corrupti incidunt dolores necessitatibus,
+            similique nihil. Mollitia reprehenderit sunt repellendus quasi praesentium eligendi iure. Magnam fugiat itaque, magni adipisci quibusdam cupiditate amet accusamus dolorum ipsam similique nulla<br><br> Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Beatae a nostrum quam ab eaque sunt, corrupti incidunt dolores necessitatibus, similique nihil. Mollitia reprehenderit sunt repellendus quasi praesentium eligendi iure. Magnam fugiat itaque, magni adipisci quibusdam cupiditate
+            amet accusamus dolorum ipsam similique nulla expedita consequuntur fugit neque corporis praesentium nesciunt molestiae assumenda aliquid? Provident quos tenetur ab corporis obcaecati, ipsa nemo quidem explicabo, exercitationem fuga aperiam
+            quam impedit illo adipisci qui. Nostrum id amet aliquam tempore ab magni inventore obcaecati, fuga alias dolorem cum excepturi autem hic fugit architecto assumenda quasi a? Eligendi, accusantium id! Ad quasi consectetur sunt odit magnam.<br><br>Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorum! Nobis mollitia accusantium sed suscipit, corporis culpa molestias fugiat commodi optio nulla laudantium perspiciatis ipsa ab facere quibusdam blanditiis voluptatum, placeat
+            delectus! Incidunt, officia? A impedit laborum voluptatem fugit facere sed. Eum, sapiente. Expedita, id laudantium eligendi ex iusto aspernatur nesciunt, voluptate tenetur, neque deleniti provident dolores vel nobis nisi? Ut, nobis! Labore
+            quis molestiae, esse dolor sint unde iusto voluptatem dolorum similique aperiam explicabo quo earum vitae dolores. Quibusdam voluptas placeat reiciendis molestias dignissimos vero repellendus sed odio dolor. Enim, nihil dolorum expedita placeat
+            accusantium debitis. Hic, repellendus assumenda numquam quam voluptas expedita? Iste laudantium ab accusamus, culpa quia mollitia cumque corrupti laboriosam nesciunt unde, nemo commodi recusandae minima id aliquam vitae a veritatis sapiente
+            porro inventore? Fuga debitis, consectetur ad nulla corrupti ab nemo quae labore quia quis quasi suscipit expedita aliquam minima quaerat mollitia, nihil, perferendis alias culpa impedit! Fugiat eos doloribus ea, repellat quo architecto fuga
+            autem, sapiente obcaecati provident ex natus ab, id quisquam ipsa facilis ducimus sit adipisci nesciunt doloremque accusantium assumenda recusandae. Provident, possimus. Eum architecto tempore inventore, aperiam fuga eaque. Cumque impedit
+            odio, dolorum pariatur a quis. Inventore accusantium possimus error numquam?<br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse nulla soluta pariatur voluptatum, debitis ducimus quisquam distinctio architecto, doloremque
+            iusto veniam fugiat beatae sint est aliquam dolores autem reiciendis accusantium neque perspiciatis at, quasi nesciunt? Quis dolor deleniti sapiente veniam repellat fuga, itaque vitae officia temporibus dolores nisi id eius, quasi repudiandae
+            nobis autem est numquam laudantium sit saepe atque inventore dicta. Voluptas corporis dolores nam repudiandae vel, reiciendis hic voluptatibus, sapiente modi consectetur eos nisi accusantium ipsa rerum libero accusamus quibusdam aspernatur,
+            aliquam aliquid autem. Corrupti iusto vero nisi molestias, error et nihil dolores eius atque accusamus repudiandae id sit esse eos illo asperiores neque doloribus necessitatibus tenetur provident! Id, provident? Praesentium asperiores sapiente
+            animi! Velit nisi accusamus, id quia obcaecati laudantium recusandae atque quod perspiciatis eius reprehenderit animi debitis, quasi autem? Nulla, repellat quae. Ipsam earum facilis est at cumque placeat incidunt molestias recusandae fugit
+            vero reiciendis itaque nesciunt deserunt exercitationem voluptas veritatis dicta ratione, vitae aliquam. Iste architecto quis quae, nesciunt magnam corporis obcaecati consectetur laborum ratione minus! Minima, doloribus vero. Provident repellat
+            architecto magni, dolor pariatur tempora porro neque vitae recusandae sapiente assumenda deleniti temporibus atque soluta quaerat itaque facere facilis ab quidem illum illo.
+        </p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let white = document.getElementById('white');
+        let behind = document.getElementById('behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let front = document.getElementById('front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            stars.style.left = value * 1 + 'px';
+            stars.style.top = value * 1 + 'px';
+            white.style.top = value * 0.85 + 'px';
+            behind.style.top = value * 0.5 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.top = value * 2 + 'px';
+            btn.style.marginTop = value * 2 + 'px';
+            header.style.top = value * 2 + 'px';
+
+        });
+    </script>
+</body>
+
+</html>
